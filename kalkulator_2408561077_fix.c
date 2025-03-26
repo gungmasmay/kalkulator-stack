@@ -113,7 +113,6 @@ void operasi(Queue *q)
         if(q->data[i] < min)
             min = q->data[i];
     }
-    
     rata = (float)total / (q->rear - q->front);
     printf("Nilai Total \t: %d\n", total);
     printf("Rata-rata \t: %.2f\n", rata);
